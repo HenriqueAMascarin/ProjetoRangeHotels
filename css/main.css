@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (min-width: 74em){
     .top-content{
         background-image: url(../images/bg_topo_1600x1374.jpg);
-        background-size: 100%; /* deixa o fundo 100% na tela (professor não colocou)*/
+        background-size: cover; /* deixa o fundo 100% na tela (professor não colocou)*/
         padding: 26em 20em 10em; /* resolvi colocar 26em antes era 19em */
         background-position: center top;
     }
