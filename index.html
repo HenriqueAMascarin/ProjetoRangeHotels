@@ -8,6 +8,7 @@
     <meta name="keywords" content="Range Hotels, adventure">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" type="image/sgg" href="images/icon_play.svg">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href="icomoon/style.css" rel="stylesheet" >
     <link href="css/normalize.css" rel="stylesheet">
@@ -19,13 +20,15 @@
 	<header class="top-header clearfix">
         <div class="maxwidth">
         <img src="images/logo_mob.svg" alt="logotipo Range Hotels" class="top-header-logo">
-   <!-- eu implementei o uso dos botões -->
+
+   <!-- eu implementei o uso dos botões + javascript(rolagem lisa) + icone da página -->
+   
         <nav class="top-nav">
             <ul>
-                <li> <a href="#home">Home</a></li>
-                <li> <a href="#products">Products</a></li>
-                <li> <a href="#services">Services</a></li>
-                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="#home" class="smoothScroll">Home</a></li>
+                <li> <a href="#products" class="smoothScroll" >Products</a></li>
+                <li> <a href="#services" class="smoothScroll">Services</a></li>
+                <li> <a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
         </nav>
         </div>
@@ -39,7 +42,7 @@
             </div>
             <h1 class="top-content-title">A exciting new adventure over the range</h1>
             <h2 class="top-content-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipisicing elit.</h2>
-            <a href="#" class="button">Get Started </a>
+            <a href="#products" class="button smoothScroll">Get Started </a>
             </div>
         </section>
     
@@ -111,6 +114,9 @@
         <p>Copyright The Range</p>
         <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="javascript/main.js"></script>
     
 </body>
 </html>
